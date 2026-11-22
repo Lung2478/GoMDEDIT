@@ -1,0 +1,122 @@
+================================================================================
+GoMDEDIT — THIRD-PARTY OPEN-SOURCE SOFTWARE NOTICES
+Copyright (c) 2026 GoXEDIT Project (Lung2478). All Rights Reserved.
+================================================================================
+
+GoMDEDIT is distributed as proprietary freeware (see LICENSE.md / LICENSE.zh-TW.md).
+The GoMDEDIT standalone executable bundles the following third-party open-source
+software components, which are used in compliance with their respective licenses.
+We gratefully acknowledge the authors and contributors of these projects.
+
+--------------------------------------------------------------------------------
+1. FRONTEND COMPONENTS (BUNDLED OFFLINE STATIC ASSETS)
+--------------------------------------------------------------------------------
+
+- React & React DOM (v19.x)
+  License: MIT License
+  Copyright (c) Meta Platforms, Inc. and affiliates.
+  Project: https://react.dev/
+
+- markdown-it (v14.x)
+  License: MIT License
+  Copyright (c) 2014 Vitaly Puzrin, Alex Kocharin.
+  Project: https://github.com/markdown-it/markdown-it
+
+- Mermaid (v11.x)
+  License: MIT License
+  Copyright (c) 2014 - 2024 Knut Sveidqvist.
+  Project: https://mermaid.js.org/
+
+- KaTeX (v0.16.x, including bundled math fonts)
+  License: MIT License
+  Copyright (c) 2013-2020 Khan Academy and other contributors.
+  Project: https://katex.org/
+
+- highlight.js (v11.x)
+  License: BSD 3-Clause License
+  Copyright (c) 2006, Ivan Sagalaev. All rights reserved.
+  Project: https://highlightjs.org/
+
+- Lucide React (v0.468.x)
+  License: ISC License
+  Copyright (c) for portions of Lucide are held by Cole Bemis 2013-2022 as part
+  of Feather (MIT). All other copyright (c) for Lucide are held by Lucide
+  Contributors 2022.
+  Project: https://lucide.dev/
+
+--------------------------------------------------------------------------------
+2. DESKTOP SHELL & RUNTIME COMPONENTS (PYTHON / PYWEBVIEW)
+--------------------------------------------------------------------------------
+
+- Python Runtime (CPython 3.12)
+  License: Python Software Foundation License Version 2 (PSF-2.0)
+  Copyright (c) 2001-2026 Python Software Foundation. All rights reserved.
+  Project: https://www.python.org/
+
+- pywebview (v6.x)
+  License: BSD 3-Clause License
+  Copyright (c) Roman Sirokov and contributors.
+  Project: https://pywebview.flowrl.com/
+
+- bottle (v0.13.x)
+  License: MIT License
+  Copyright (c) 2009-2024, Marcel Hellkamp.
+  Project: https://bottlepy.org/
+
+- pythonnet (v3.x) & clr_loader
+  License: MIT License
+  Copyright (c) Python for .NET contributors.
+  Project: https://pythonnet.github.io/
+
+- Pillow (PIL Fork, v13.x)
+  License: MIT-CMU (Historical Permission Notice and Disclaimer)
+  Copyright (c) 1997-2011 by Secret Labs AB, Fredrik Lundh;
+  Copyright (c) 2010-2026 by Jeffrey A. Clark and contributors.
+  Project: https://python-pillow.org/
+
+- cffi & pycparser
+  License: MIT License (cffi) / BSD 3-Clause License (pycparser)
+  Project: https://cffi.readthedocs.io/
+
+- pywin32-ctypes, proxy_tools, packaging, pefile, altgraph, typing_extensions
+  License: BSD / MIT / Apache-2.0 / PSF permissive licenses.
+
+- PyInstaller (v6.x — Packaging Bootloader)
+  License: GNU General Public License v2.0 with the PyInstaller Bootloader Exception
+  Note: The official PyInstaller Bootloader Exception explicitly permits bundling
+  and distributing proprietary / closed-source executables created with unmodified
+  PyInstaller bootloaders under any license terms.
+  Project: https://pyinstaller.org/
+
+--------------------------------------------------------------------------------
+3. STANDARD PERMISSIVE LICENSE TEXTS SUMMARY
+--------------------------------------------------------------------------------
+
+[MIT License]
+Permission is hereby granted, free of charge, to any person obtaining a copy of
+the respective software and associated documentation files, to deal in the
+software without restriction, including without limitation the rights to use,
+copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the
+software, subject to including the above copyright notice and permission notice.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED.
+
+[BSD 3-Clause License]
+Redistribution and use in source and binary forms, with or without modification,
+are permitted provided that redistributions retain the copyright notice, list of
+conditions, and disclaimer. Neither the names of the copyright holders nor their
+contributors may be used to endorse or promote products derived from the software
+without specific prior written permission.
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+ANY EXPRESS OR IMPLIED WARRANTIES ARE DISCLAIMED.
+
+[ISC License]
+Permission to use, copy, modify, and/or distribute the respective software for
+any purpose with or without fee is hereby granted, provided that the above
+copyright notice and this permission notice appear in all copies.
+THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES.
+
+================================================================================
+For commercial licensing inquiries regarding GoMDEDIT / GoXEDIT:
+GoXEDIT Official Website Contact Form / GitHub Issues (Commercial Inquiry label)
+https://github.com/Lung2478/GoMDEDIT/issues
+================================================================================
