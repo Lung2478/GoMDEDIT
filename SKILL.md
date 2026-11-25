@@ -50,7 +50,7 @@ Review `gomd_inspect.json` for:
 ```
 Inspect `gomd_check.json`. Resolve any remaining `MD_UNCLOSED_FENCE`, `MD_BROKEN_LOCAL_IMAGE`, `JSON_SYNTAX_ERROR`, or `HTML_UNCLOSED_TAG` items until `totalIssues == 0`.
 
-## Authoring 100% GoMDEDIT-Compatible Markdown
+## Authoring GoMDEDIT-Compatible Markdown
 - Save files as UTF-8 (no BOM) with `LF` line endings.
 - Place local images in `./assets/` relative to the `.md` file and reference as `![caption](./assets/file.png)`.
 - Supported offline rich blocks: GFM tables, interactive task lists (`- [x]`), GitHub Alerts (`> [!NOTE]` .. `> [!CAUTION]`), ```` ```mermaid ```` diagrams, `$...$` / `$$...$$` KaTeX math (escape literal currency `$` as `\$100`), and ````` ````carousel ````` with `<!-- slide -->`.

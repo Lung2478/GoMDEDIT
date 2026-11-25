@@ -6,7 +6,7 @@
 
 ## 繁體中文快速指南
 
-### 1. 零安裝立即啟動（100% 離線運作）
+### 1. 零安裝立即啟動（純離線運作）
 1. **直接執行**：雙擊本資料夾內的 `GoMDEDIT.exe` 即可開啟，無需安裝、無需網路連線、不需額外環境設定。
 2. **隨身攜帶**：只需複製 `GoMDEDIT.exe` 單一執行檔至任何 Windows 10 / 11 電腦即可使用（內建 Edge WebView2 支援）。
 3. **體驗這份指南**：可直接將本 `Quick_Start.md` 拖進 `GoMDEDIT.exe` 視窗，或從左上角「檔案 -> 開啟檔案」開啟，立即體驗即時渲染效果。
@@ -54,18 +54,18 @@
 ```
 
 ### 5. 隱私、授權與免責聲明
-* **100% 離線隱私**：`GoMDEDIT.exe` 不連線至任何遠端伺服器、不回傳任何遙測或使用紀錄；偏好設定僅存於本機 `%USERPROFILE%\.gomdedit\config.json`。
+* **離線隱私**：`GoMDEDIT.exe` 不連線至任何遠端伺服器、不回傳任何遙測或使用紀錄；偏好設定僅存於本機 `%USERPROFILE%\.gomdedit\config.json`。
 * **授權與商業洽詢**（完整條文見 `LICENSE.zh-TW.md` / `LICENSE.md` 與 `THIRD_PARTY_NOTICES.txt`）：
   > 本免費授權涵蓋標準版之個人與企業內部使用。若貴公司需要 OEM 內嵌整合、專屬客製開發、企業級大量舊檔重製顧問、或專屬技術支援與 SLA，請聯繫 GoXEDIT 官方取得商業授權。
   * 版權歸屬：`Copyright (c) 2026 GoXEDIT Project (Lung2478). All Rights Reserved.`
   * 商業授權聯繫方式：GoXEDIT 官方網站聯絡表單 / GitHub Issues（商用洽詢標籤）
-* **免責聲明**：本軟體及其 CLI / AI 接口皆依「現況（AS-IS）」免費提供，不附帶任何明示或默示保證；`GoXEDIT Project (Lung2478)` 不對資料遺失、檔案損毀或業務中斷承擔賠償責任。執行 AI 或批次命令列修改前請務必自行備份原始檔案並先以 `--dry-run` 預覽驗證。
+* **免責聲明**：本軟體及其 CLI / AI 接口皆依「現況」免費提供，不附帶任何明示或默示保證；`GoXEDIT Project (Lung2478)` 不對資料遺失、檔案損毀或業務中斷承擔賠償責任。執行 AI 或批次命令列修改前請務必自行備份原始檔案並先以 `--dry-run` 預覽驗證。
 
 ---
 
 ## English Quick Start Guide
 
-### 1. Zero-Install Instant Launch (100% Offline)
+### 1. Zero-Install Instant Launch (Offline)
 1. **Run Directly**: Double-click `GoMDEDIT.exe` in this folder to start immediately — no installation, no internet connection, and no external runtime setup required.
 2. **Portable Single File**: Copy `GoMDEDIT.exe` alone to any Windows 10 / 11 PC (uses the built-in Edge WebView2 engine).
 3. **Try It with This Guide**: Drag `Quick_Start.md` into `GoMDEDIT.exe` (or open it via `File -> Open File`) to experience live Markdown rendering immediately.
@@ -108,7 +108,7 @@ Beyond the desktop GUI, `GoMDEDIT.exe` provides a zero-window offline CLI for AI
 ```
 
 ### 5. Privacy, Licensing & Disclaimers
-* **100% Offline Privacy**: `GoMDEDIT.exe` operates with zero external CDN requests, zero telemetry, and zero cloud uploads. Local preferences live strictly at `%USERPROFILE%\.gomdedit\config.json`.
+* **Offline Privacy**: `GoMDEDIT.exe` operates with zero external CDN requests, zero telemetry, and zero cloud uploads. Local preferences live strictly at `%USERPROFILE%\.gomdedit\config.json`.
 * **Licensing & Commercial Inquiries** (see `LICENSE.md`, `LICENSE.zh-TW.md`, and `THIRD_PARTY_NOTICES.txt`):
   > This free license covers personal and internal enterprise use of the standard edition. If your organization requires OEM embedding / integration, custom feature development, enterprise-scale legacy file batch conversion consulting, or dedicated technical support and SLA, please contact **GoXEDIT Official** for a Commercial License.
   * Copyright: `Copyright (c) 2026 GoXEDIT Project (Lung2478). All Rights Reserved.`

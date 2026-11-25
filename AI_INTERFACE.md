@@ -9,7 +9,7 @@
 
 ### 1. 無頭批次命令列介面（Headless Batch CLI — 零 GUI 靜默執行）
 
-AI 代理人與企業自動化腳本可直接呼叫 `GoMDEDIT.exe` 執行 100% 離線批次作業，完全不彈出桌面視窗，並輸出標準 UTF-8 JSON。
+AI 代理人與企業自動化腳本可直接呼叫 `GoMDEDIT.exe` 執行離線批次作業，完全不彈出桌面視窗，並輸出標準 UTF-8 JSON。
 
 > **Windows 執行與輸出可靠性建議**：由於 `GoMDEDIT.exe` 採 Windows GUI 子系統封裝，於 PowerShell 互動環境直接執行時系統預設會非同步返回。請務必：
 > 1. 一律加上 **`--report <輸出路徑.json>`** 取得完整 UTF-8 JSON 報告；
@@ -86,9 +86,9 @@ Get-Content -Encoding UTF8 .\version.json
 ---
 
 ### 3. GoMDEDIT 完全相容 Markdown 文件撰寫規範（供 AI 生成文件使用）
-當 AI 代理人負責將公司舊文件重製為 100% 相容 GoMDEDIT 渲染的 `.md` 檔時，請遵循以下規範：
+當 AI 代理人負責將公司舊文件重製為相容 GoMDEDIT 渲染的 `.md` 檔時，請遵循以下規範：
 1. **編碼與換行**：一律輸出乾淨無 BOM 之 `UTF-8`，換行統一 `LF`。
-2. **相對圖片路徑**：圖片集中存於同目錄 `./assets/`，以 `![描述](./assets/image.png)` 引用，確保單檔離線預覽與匯出 HTML 100% 正常顯示。
+2. **相對圖片路徑**：圖片集中存於同目錄 `./assets/`，以 `![描述](./assets/image.png)` 引用，確保單檔離線預覽與匯出 HTML 正常顯示。
 3. **支援之進階離線區塊語法**：
    * GitHub Alerts：`> [!NOTE]`、`> [!TIP]`、`> [!IMPORTANT]`、`> [!WARNING]`、`> [!CAUTION]`
    * 離線 Mermaid 圖表：使用 ```` ```mermaid ```` 圍欄（支援 `flowchart`、`sequenceDiagram`、`stateDiagram-v2`、`classDiagram`、`erDiagram`、`gantt`、`pie`）。
@@ -104,7 +104,7 @@ Get-Content -Encoding UTF8 .\version.json
 ---
 
 ### 5. AI 自動化操作免責聲明
-> 使用 AI 模型或自動化腳本呼叫 `GoMDEDIT.exe --cli` 批次修改檔案前，**使用者須自行完成原始檔案備份並優先執行 `--dry-run` 與人工抽檢驗證**。本軟體依「現況（AS-IS）」免費提供，`GoXEDIT Project (Lung2478)` 不對任何由外部 AI 誤判、覆寫、資料遺失或衍生損害承擔賠償責任（完整條款見 [`LICENSE.zh-TW.md`](./LICENSE.zh-TW.md)）。
+> 使用 AI 模型或自動化腳本呼叫 `GoMDEDIT.exe --cli` 批次修改檔案前，**使用者須自行完成原始檔案備份並優先執行 `--dry-run` 與人工抽檢驗證**。本軟體依「現況」免費提供，`GoXEDIT Project (Lung2478)` 不對任何由外部 AI 誤判、覆寫、資料遺失或衍生損害承擔賠償責任（完整條款見 [`LICENSE.zh-TW.md`](./LICENSE.zh-TW.md)）。
 
 ---
 

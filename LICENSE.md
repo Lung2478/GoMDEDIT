@@ -36,7 +36,7 @@ Except as explicitly permitted in Section 2 or under a separate written Commerci
 
 ## 4. Public Documentation & AI Interface Materials
 
-Official public documentation, AI usage specifications (`AI_INTERFACE.md`, `SKILL.md`), and command invocation examples published in the official public repository may be freely read, referenced, and integrated into your personal or internal AI agent workflows to operate `GoMDEDIT.exe`, provided that attribution to **GoXEDIT Project (Lung2478)** is preserved. This permission applies strictly to the public interface documentation and does **not** grant any rights to the closed-source Software binary beyond Sections 2 and 3.
+Official public documentation, AI usage specifications (`AI_INTERFACE.md`, `SKILL.md`), and command invocation examples published in the official public repository may be freely read, referenced, and integrated into your personal or internal AI agent workflows to operate `GoMDEDIT.exe`, provided that attribution to **GoXEDIT Project (Lung2478)** is preserved. This permission applies strictly to the public interface documentation and does **not** grant any rights to the Software binary beyond Sections 2 and 3.
 
 ---
 

@@ -84,7 +84,7 @@ We gratefully acknowledge the authors and contributors of these projects.
 - PyInstaller (v6.x — Packaging Bootloader)
   License: GNU General Public License v2.0 with the PyInstaller Bootloader Exception
   Note: The official PyInstaller Bootloader Exception explicitly permits bundling
-  and distributing proprietary / closed-source executables created with unmodified
+  and distributing proprietary executables created with unmodified
   PyInstaller bootloaders under any license terms.
   Project: https://pyinstaller.org/
 
